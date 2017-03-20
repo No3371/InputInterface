@@ -3,7 +3,9 @@ A tool to integrate multiple input contexts.
 
 :key: Insert "using InputInterface" to use.
 
-## InputManager ^MonoBehaviour/Singleton^
+## InputManager 
+*MonoBehaviour/Singleton*
+
  :information_source: As a singleton Monobehaviour, this will mark the GameObject it attached to "Don't Destroy On Load".
 
 
@@ -58,7 +60,8 @@ A tool to integrate multiple input contexts.
         - activeState: state1.
         - stateHolder: state 0.
 
-## InputState ^Class^
+## InputState
+*Normal Class*
 
 ### Description
 A state of InputManager, every state instance store what would happens when a input detected. Works with Unity's Input System.
